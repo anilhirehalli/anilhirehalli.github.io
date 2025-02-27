@@ -14,6 +14,7 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    text-align: center;
 
 }
 /* Genral */
@@ -23,6 +24,15 @@ body {
 
 .img-w {
     width: 100%;
+}
+
+.img-aboutus{
+    width: 75%;
+    margin-left: auto;
+    z-index: -1;
+    opacity: 0;
+    animation: imageAni 1s ease forwards;
+    animation-delay: 0.5s;
 }
 /* Nav */
 header {
@@ -52,7 +62,6 @@ header {
     color: #244D61;
     text-decoration: none;
 }
-
 ul {
     display: flex;
     gap: .6rem;
@@ -77,6 +86,53 @@ li a {
     animation-delay: calc(.15s * var(--navAni));
 }
 
+
+.about-tag{
+    width: 100%;
+    margin: 0 auto; 
+    animation: leftSideAni 1s ease forwards;
+}
+
+.about-tag ulabout liabout {
+    margin: 6px; }
+
+.about-tag {
+    word-break: break-all;
+    margin-bottom: 25px;
+    margin-top: 20px; }
+    .about-tag ulabout liabout {
+    margin: 0px 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 0px;
+    
+    display: inline-block; }
+    .about-tag ulabout liabout span {
+        border: 1px solid #0bceaf;
+        padding: 4px 10px;
+        border-radius: 4px; }
+        .about-tag ulabout liabout span:hover {
+        background-color: transparent !important; }
+
+        .btn {
+            
+            -moz-transition: color 0.3s ease;
+            -o-transition: color 0.3s ease;
+            -webkit-transition: color 0.3s ease;
+            transition: color 0.3s ease;
+            outline: 0;
+            padding: 8px 30px;
+            font-weight: bold;
+            border-radius: 20px; 
+            animation: leftSideAni 1s ease forwards}
+        .btn.btn-fill {
+            background-color: #0bceaf;
+            color: #fff; }
+
+            .downlaod-cv{
+                height: 500px;
+                animation: leftSideAni 1s ease forwards;
+            }
 li a.active,
 li a:hover {
     color: var(--primary-color);
@@ -120,6 +176,14 @@ li a:hover {
     animation-delay: 1s;
 }
 
+.main h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    opacity: 0;
+    animation: leftSideAni 1s ease forwards;
+    animation-delay: 1s;
+}
+
 .main p {
     line-height: 1.7;
     font-size: 1.15rem;
@@ -127,6 +191,13 @@ li a:hover {
     animation: topSideAni 1.5s ease forwards;
 }
 
+.main passage-about {
+    line-height: 1.7;
+    font-size: 1.15rem;
+    opacity: 0;
+    animation: topSideAni 1.5s ease forwards;
+
+}
 .social {
     display: flex;
     flex-wrap: wrap;
