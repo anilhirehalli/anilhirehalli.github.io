@@ -18,9 +18,218 @@ body {
 
 }
 /* Genral */
-.container {
+.ourcontainer {
     padding: 0 8.4rem;
+    text-align: center;
 }
+
+.center-allign{
+    align-content: center
+}
+
+.Experience{
+    display: flex;
+    flex-direction: column; /* Aligns the contact divs one after another vertically */
+    gap: 10px;
+}
+.Whatdobox{
+    width: 35%;
+    display: inline-block;
+    margin-right: auto;
+    /*box-sizing: border-box;
+    z-index: -1;
+    opacity: 0;
+    animation: imageAni 1s ease forwards;
+    animation-delay: 0.5s;*/
+}
+
+.contactme{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.contactme p {
+    margin-bottom: 5px;
+    font-size: 1.0rem;
+
+}
+
+.contectdetails{
+    
+}
+
+.mh-skills .mh-professional-skill {
+    padding-right: 60px; }
+    .mh-skills .mh-professional-skill h3 {
+      font-size: 30px;
+      line-height: 40px;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 60px; }
+  
+
+
+    .candidatos {
+        position: relative;
+        margin-bottom: 15px; }
+        .candidatos .parcial {
+          display: inline-block;
+          width: 100%;
+          vertical-align: middle; }
+          .candidatos .parcial .info {
+            position: relative; }
+            .candidatos .parcial .info .nome {
+              position: absolute;
+              top: 0;
+              left: 0;
+              font-size: 15px;
+              font-weight: 600;
+              opacity: 0.9; }
+            .candidatos .parcial .info .eleito, .candidatos .parcial .info .segundo-turno {
+              padding: 0 5px 2px 5px;
+              border-radius: 2px; }
+            .candidatos .parcial .info .percentagem-num {
+              position: absolute;
+              top: 0;
+              right: 0;
+              font-size: 14px;
+              font-weight: normal; }
+          .candidatos .parcial .progressBar {
+            position: relative;
+            width: 100%;
+            height: 7px;
+            margin: 30px 0 2px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.5); }
+          .candidatos .parcial .percentagem {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 7px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background: #0bceaf;
+            -webkit-transition: 3s all;
+            -webkit-animation-duration: 3s;
+            -webkit-animation-name: animationProgress; }
+          .candidatos .parcial .partidas {
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase; }
+
+            .percentual {
+                animation-name: animationProgress; }
+              
+              @-webkit-keyframes animationProgress {
+                from {
+                  width: 0; } }
+              @keyframes animationProgress {
+                from {
+                  width: 0; } }
+      
+  
+
+.mh-professional-skills {
+    padding-left: 0%; }
+    .mh-professional-skills h3 {
+      font-size: 30px;
+      line-height: 40px;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 60px; }
+
+
+      .mh-professional-progress li {
+        display: inline-table;
+        margin: 0px;
+        float: none;
+        width: 36%;
+        margin-bottom: 30px;
+        text-align: center; }
+
+        
+      .mh-progress {
+        margin-bottom: 10px;
+        font: 900 1.1428571429em/1 Cinzel, cursive; }
+        .mh-progress .progressbar-text {
+          color: inherit !important; }
+
+          .mh-progress.mh-progress-circle {
+            display:inline-table;
+            width: 100px;
+            height: 100px; }
+          
+          .mh-progress path:nth-child(1) {
+            stroke: rgba(0, 0, 0, 0.7); }
+          
+          .mh-progress path:nth-child(2) {
+            stroke: #0bceaf; }
+
+.section-title {
+    text-align: center; }
+    .section-title h3 {
+      font-size: 30px;
+      line-height: 40px;
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 60px; }
+
+.section-separator {
+    padding: 100px 0; }
+  
+  .home-section-separator {
+    padding-top: 100px;
+    padding-bottom: 200px; }
+
+.mh-pricing .mh-pricing {
+    padding: 20px 0;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-bottom: 30px; }
+    .mh-pricing .mh-pricing:hover {
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      .mh-pricing .mh-pricing:hover .btn {
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        background-color: #0ab69a; }
+    .mh-pricing .mh-pricing .fa {
+      font-size: 30px;
+      line-height: 36px;
+      margin-bottom: 20px;
+      color: #7af8e4; }
+    .mh-pricing .mh-pricing h4 {
+      margin-bottom: 10px;
+      margin-top: 20px; }
+    .mh-pricing .mh-pricing h5 {
+      font-size: 36px;
+      line-height: 40px;
+      color: #0bceaf;
+      margin-bottom: 20px;
+      margin-top: 20px; }
+    .mh-pricing .mh-pricing span {
+      opacity: 0.8; }
+    .mh-pricing .mh-pricing ul {
+      margin: 30px 0; }
+      .mh-pricing .mh-pricing ul li {
+        margin: 2px 0; }
+    .mh-pricing .mh-pricing .btn {
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
 
 .img-w {
     width: 100%;
@@ -44,12 +253,24 @@ header {
     z-index: 1;
 }
 
-.page-header {
+.ourpage-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
 }
+
+.left-align{
+    text-align: left;
+}
+
+.mh-eduyear {
+    margin: 10px 0;
+    color: #0bceaf; }
+
+    
+              
+      
 
 .logo {
     font-size: 1.5rem;
@@ -96,6 +317,15 @@ li a {
 .about-tag ulabout liabout {
     margin: 6px; }
 
+.dark-bg {
+    background-color: #202026;
+ }
+
+.shadow-1 {
+        -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
 .about-tag {
     word-break: break-all;
     margin-bottom: 25px;
@@ -129,8 +359,14 @@ li a {
             background-color: #0bceaf;
             color: #fff; }
 
+            .buttonStyle{
+                border-radius: 20px; 
+                padding: 8px 30px;
+                margin-top: 20px;
+            }
+
             .downlaod-cv{
-                height: 500px;
+                height: 35px;
                 animation: leftSideAni 1s ease forwards;
             }
 li a.active,
@@ -163,6 +399,17 @@ li a:hover {
     row-gap: 2rem;
     align-items: center;
 }
+.main h4{
+   
+    font-size: 1.5rem;
+    opacity: 0;
+    animation: topSideAni 1s ease forwards;
+}
+
+.topMargin{
+    margin: 10px 0px;
+}
+
 .main h3 {
     font-size: 1.5rem;
     opacity: 0;
@@ -177,7 +424,7 @@ li a:hover {
 }
 
 .main h2 {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     font-weight: 400;
     opacity: 0;
     animation: leftSideAni 1s ease forwards;
@@ -372,13 +619,13 @@ li a:hover {
 }
 
 @media screen and (max-width: 1024px) {
-    .container {
+    .ourcontainer {
         padding: 0 4.4rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    .ourcontainer {
         padding: 0 1.6rem;
     }
 }
